@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>CWY</title>
+    <link href="css/bulma-rtl.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="Script.js"></script>
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Creativity with you</h1>
+        <hr />
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Tama&ntilde;o</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <div class="select">
+                  <select id="sltTamanio">
+                    <option value="">Selecione...</option>
+                    <option value="S">Chico</option>
+                    <option value="M">Mediano</option>
+                    <option value="L">Grande</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Color</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <div class="select">
+                  <select id="sltColor">
+                    <option value="">Selecione...</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Natural">Natural</option>
+                    <option value="Negro">Negro</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Mensaje Externo</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <textarea
+                  class="textarea"
+                  id="txtMensajeExterno"
+                  rows="10"
+                  cols="50"
+                  placeholder="¡Felicidades Fernanada!"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Mensaje Interno</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control is-expanded has-icons-left">
+                <textarea
+                  class="textarea"
+                  id="txtMensajeInterno"
+                  rows="10"
+                  cols="50"
+                  placeholder="Pasatela super bien en tu d&iacute;a"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Producto</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control is-expanded has-icons-left">
+                <input
+                  class="input"
+                  id="iptProducto"
+                  type="text"
+                  placeholder="Peluche"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label for=""></label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <button
+                type="button"
+                onclick="MostrarCaja()"
+                class="button is-primary"
+              >
+                Mostrar Caja
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
